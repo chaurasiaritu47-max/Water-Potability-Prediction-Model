@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 import joblib
 
 
-df = pd.read_csv('D:/water_Purity/water_potability.csv')
+df = pd.read_csv('water_potability.csv')
 df.head()
 
 df.shape
