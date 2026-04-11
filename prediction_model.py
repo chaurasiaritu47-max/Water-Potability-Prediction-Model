@@ -16,7 +16,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 import joblib
 from google.colab import files
 
-df = pd.read_csv('/content/water_potability.csv')
+df = pd.read_csv('water_potability.csv')
 df.head()
 
 df.shape
