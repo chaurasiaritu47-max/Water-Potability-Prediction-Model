@@ -30,7 +30,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 # Load the trained model
-model = joblib.load('D:\water_Purity\water_purity_model.pkl')
+model = joblib.load('water_purity_model.pkl')
 
 
 #st.title ("Water Purity Prediction")           
